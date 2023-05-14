@@ -1,4 +1,4 @@
-# TransZero++ 
+# ZSLViT 
 
 
 This repository contains the testing code for the NeurIPS'23 submission ***ID-3294*** titled with  "***ZSLViT: Semantic-Guided Vision Transformer for  Zero-Shot Learningg***".
