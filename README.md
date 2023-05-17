@@ -25,14 +25,14 @@ We provide trained models ([Google Drive](https://drive.google.com/drive/folders
 ```
 
 ## Requirements
-The code implementation of **ViTZSL** mainly based on [PyTorch](https://pytorch.org/). All of our experiments run and test in Python 3.8.8. To install all required dependencies:
+The code implementation of **ZSLViT** mainly based on [PyTorch](https://pytorch.org/). All of our experiments run and test in Python 3.8.8. To install all required dependencies:
 ```
 $ pip install -r requirements.txt
 ```
 ## Runing
-Runing following commands and testing **TransZero++** on different dataset:
+Runing following commands and testing **ZSLViT** on different dataset:
 
-CUB Dataset: 
+<!-- CUB Dataset: 
 ```
 $ python test.py --config config/CUB_CZSL.json      # CZSL Setting
 $ python test.py --config config/CUB_GZSL.json      # GZSL Setting
@@ -45,7 +45,7 @@ $ python test.py --config config/SUN_GZSL.json      # GZSL Setting
 AWA2 Dataset: 
 ```
 $ python test.py --config config/AWA2_CZSL.json     # CZSL Setting
-$ python test.py --config config/AWA2_GZSL.json     # GZSL Setting
+$ python test.py --config config/AWA2_GZSL.json     # GZSL Setting -->
 ```
 
 ## Results
