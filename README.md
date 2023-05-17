@@ -25,7 +25,7 @@ We provide trained models ([Google Drive](https://drive.google.com/drive/folders
 ```
 
 ## Requirements
-The code implementation of **TransZero++** mainly based on [PyTorch](https://pytorch.org/). All of our experiments run and test in Python 3.8.8. To install all required dependencies:
+The code implementation of **ViTZSL** mainly based on [PyTorch](https://pytorch.org/). All of our experiments run and test in Python 3.8.8. To install all required dependencies:
 ```
 $ pip install -r requirements.txt
 ```
