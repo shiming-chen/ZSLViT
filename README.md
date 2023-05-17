@@ -11,12 +11,12 @@ We provide trained models ([Google Drive](https://drive.google.com/drive/folders
 ```
 .
 ├── saved_model
-│   ├── TransZeroPP_CUB_CZSL.pth
-│   ├── TransZeroPP_CUB_GZSL.pth
-│   ├── TransZeroPP_SUN_CZSL.pth
-│   ├── TransZeroPP_SUN_GZSL.pth
-│   ├── TransZeroPP_AWA2_CZSL.pth
-│   └── TransZeroPP_AWA2_GZSL.pth
+│   ├── ZSLViT_CUB_CZSL.pth
+│   ├── ZSLViT_CUB_GZSL.pth
+│   ├── ZSLViT_SUN_CZSL.pth
+│   ├── ZSLViT_SUN_GZSL.pth
+│   ├── ZSLViT_AWA2_CZSL.pth
+│   └── ZSLViT_AWA2_GZSL.pth
 ├── data
 │   ├── CUB/
 │   ├── SUN/
@@ -54,8 +54,8 @@ Results of our released models using various evaluation protocols on three datas
 | Dataset | Acc(CZSL) | U(GZSL) | S(GZSL) | H(GZSL) |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | CUB | 79.5 | 69.8 | 78.2 | 73.8 |
-| SUN | 67.8 | 53.0 | 42.2 | 47.0 |
-| AWA2 | 67.9 | 62.4 | 87.9 | 73.0 |
+| SUN | 68.4 | 53.0 | 42.2 | 47.0 |
+| AWA2 | 71.1 | 65.2 | 83.5 | 73.2 |
 
 **Note**: We perform experiments on a single NVIDIA A100 graphic card with 40GB memory.
 
