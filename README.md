@@ -57,5 +57,5 @@ Results of our released models using various evaluation protocols on three datas
 | SUN | 68.4 | 53.0 | 42.2 | 47.0 |
 | AWA2 | 71.1 | 65.2 | 83.5 | 73.2 |
 
-**Note**: We perform experiments on a single NVIDIA A100 graphic card with 40GB memory.
+**Note**: We perform experiments on a single NVIDIA Tesla V100 graphic card with 32GB memory.
 
