@@ -11,12 +11,12 @@ We provide trained models ([Google Drive](https://drive.google.com/drive/folders
 ```
 .
 ├── saved_model
-│   ├── ZSLViT_CUB_CZSL.pth
-│   ├── ZSLViT_CUB_GZSL.pth
-│   ├── ZSLViT_SUN_CZSL.pth
-│   ├── ZSLViT_SUN_GZSL.pth
-│   ├── ZSLViT_AWA2_CZSL.pth
-│   └── ZSLViT_AWA2_GZSL.pth
+│   ├── ZSLViT_CUB_CZSL_224.pth
+│   ├── ZSLViT_CUB_GZSL_224.pth
+│   ├── ZSLViT_SUN_CZSL_224.pth
+│   ├── ZSLViT_SUN_GZSL_224.pth
+│   ├── ZSLViT_AWA2_CZSL_224.pth
+│   └── ZSLViT_AWA2_GZSL_224.pth
 ├── data
 │   ├── CUB/
 │   ├── SUN/
