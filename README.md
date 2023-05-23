@@ -35,7 +35,7 @@ Runing following commands and testing **ZSLViT** on different dataset:
 Need to modify the wandb_config file, gzsl is True or False.
 
 
-<!-- CUB Dataset: 
+CUB Dataset: 
 ```
 $ python test_CUB.py      # CZSL Setting and GZS Setting 
 ```
@@ -46,7 +46,7 @@ $ python test_SUN.py      # CZSL Setting and GZS Setting
 AWA2 Dataset: 
 ```
 $ python test_AWA2.py     # CZSL Setting and GZS Setting 
--->
+
 ```
 
 ## Results
