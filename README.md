@@ -37,20 +37,30 @@ Need to modify the wandb_config file, gzsl is True or False.
 
 CUB Dataset: 
 ```
-$ python test_CUB.py      # CZSL Setting and GZS Setting 
+$ python test_CUB.py      # CZSL Setting and GZSL Setting 
 ```
 SUN Dataset:
 ```
-$ python test_SUN.py      # CZSL Setting and GZS Setting 
+$ python test_SUN.py      # CZSL Setting and GZSL Setting 
 ```
 AWA2 Dataset: 
 ```
-$ python test_AWA2.py     # CZSL Setting and GZS Setting 
+$ python test_AWA2.py     # CZSL Setting and GZSL Setting 
 
 ```
 
 ## Results
 Results of our released models using various evaluation protocols on three datasets, both in the conventional ZSL (CZSL) and generalized ZSL (GZSL) settings.
+
+Input size: 224 * 224
+
+| Dataset | Acc(CZSL) | U(GZSL) | S(GZSL) | H(GZSL) |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| CUB | 79.5 | 69.8 | 78.2 | 73.8 |
+| SUN | 68.4 | 53.0 | 42.2 | 47.0 |
+| AWA2 | 71.1 | 65.2 | 83.5 | 73.2 |
+
+Input size: 448 * 448
 
 | Dataset | Acc(CZSL) | U(GZSL) | S(GZSL) | H(GZSL) |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
