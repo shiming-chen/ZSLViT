@@ -31,7 +31,9 @@ $ pip install -r requirements.txt
 ```
 ## Runing
 Runing following commands and testing **ZSLViT** on different dataset:
-Need to modify the wandb_config file, {\color{red}gzsl} is True or False.
+
+Need to modify the wandb_config file, gzsl is True or False.
+
 
 <!-- CUB Dataset: 
 ```
@@ -43,8 +45,8 @@ $ python test_SUN.py      # CZSL Setting and GZS Setting
 ```
 AWA2 Dataset: 
 ```
-$ python test_AWA2.py --config config/AWA2_CZSL.json     # CZSL Setting
-$ python test.py --config config/AWA2_GZSL.json     # GZSL Setting -->
+$ python test_AWA2.py     # CZSL Setting and GZS Setting 
+-->
 ```
 
 ## Results
