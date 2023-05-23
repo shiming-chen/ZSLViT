@@ -1,0 +1,40 @@
+dataset:
+  value: AWA2
+model:
+  value: zslvit_base
+fuse_token:
+  value: True
+batch_size:
+  value: 32
+nb_classes:
+  value: 1000
+base_keep_rate:
+  value: 0.9
+drop_loc:
+  value: (3,6,9)
+drop:
+  value: 0.0
+drop_path:
+  value: 0.1
+input_size:
+  value: 224
+embed_dim:
+  value: 768
+seed:
+  value: 0
+keep_rate:
+  value: 0.9
+gamma:
+  value: 0.95
+lamb_1:
+  value: 2.0
+device:
+  value: cuda
+dist_url:
+  value: env://
+attr_length:
+  value: 85
+bias:
+  value: True
+gzsl:
+  value: True
