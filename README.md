@@ -46,7 +46,6 @@ $ python test_SUN.py      # CZSL Setting and GZSL Setting
 AWA2 Dataset: 
 ```
 $ python test_AWA2.py     # CZSL Setting and GZSL Setting 
-
 ```
 
 ## Results
