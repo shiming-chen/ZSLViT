@@ -1,7 +1,7 @@
 # ZSLViT 
 
 
-This repository contains the testing code for the NeurIPS'23 submission ***ID-3294*** titled with  "***ZSLViT: Semantic-Guided Vision Transformer for  Zero-Shot Learningg***".
+This repository contains the testing code for the CVPR'24 submission ***ID-*** titled with  "***Progressive Semantic-Guided Vision Transformer for  Zero-Shot Learningg***".
 
 
 
@@ -11,12 +11,12 @@ We provide trained models ([Google Drive](https://drive.google.com/drive/folders
 ```
 .
 ├── saved_model
-│   ├── ZSLViT_CUB_CZSL_224.pth
-│   ├── ZSLViT_CUB_GZSL_224.pth
-│   ├── ZSLViT_SUN_CZSL_224.pth
-│   ├── ZSLViT_SUN_GZSL_224.pth
-│   ├── ZSLViT_AWA2_CZSL_224.pth
-│   └── ZSLViT_AWA2_GZSL_224.pth
+│   ├── ZSLViT_CUB_CZSL.pth
+│   ├── ZSLViT_CUB_GZSL.pth
+│   ├── ZSLViT_SUN_CZSL.pth
+│   ├── ZSLViT_SUN_GZSL.pth
+│   ├── ZSLViT_AWA2_CZSL.pth
+│   └── ZSLViT_AWA2_GZSL.pth
 ├── data
 │   ├── CUB/
 │   ├── SUN/
@@ -51,21 +51,12 @@ $ python test_AWA2.py     # CZSL Setting and GZSL Setting
 ## Results
 Results of our released models using various evaluation protocols on three datasets, both in the conventional ZSL (CZSL) and generalized ZSL (GZSL) settings.
 
-Input size: 224 * 224
 
 | Dataset | Acc(CZSL) | U(GZSL) | S(GZSL) | H(GZSL) |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| CUB | 74.3 | 64.0 | 74.0 | 68.7 |
-| SUN | 67.2 | 49.2 | 41.9 | 45.3 |
-| AWA2 | 69.2 | 63.8 | 84.5 | 72.7 |
-
-Input size: 448 * 448
-
-| Dataset | Acc(CZSL) | U(GZSL) | S(GZSL) | H(GZSL) |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| CUB | 79.5 | 69.8 | 78.2 | 73.8 |
-| SUN | 68.4 | 53.0 | 42.2 | 47.0 |
-| AWA2 | 71.1 | 65.2 | 83.5 | 73.2 |
+| CUB | 78.9 | 69.4 | 78.2 | 73.6 |
+| SUN | 68.3 | 45.9 | 48.4 | 47.3 |
+| AWA2 | 70.7 | 66.1 | 84.6 | 74.2 |
 
 **Note**: We perform experiments on a single NVIDIA Tesla V100 graphic card with 32GB memory.
 
