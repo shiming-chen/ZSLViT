@@ -159,9 +159,9 @@ model = nn.ModuleDict({
     "mlp_g": mlp_g})
 
 if args.gzsl:
-   checkpoint = torch.load('/home/admin/chenshiming/hwj/ViT-ZSL/saved_model/ZSLViT_CUB_GZSL_224.pth',map_location=torch.device('cpu'))
+   checkpoint = torch.load('/home/admin/chenshiming/hwj/ViT-ZSL/saved_model/ZSLViT_CUB_GZSL.pth',map_location=torch.device('cpu'))
 else:
-   checkpoint = torch.load('/home/admin/chenshiming/hwj/ZSLVIT/saved_model/ZSLViT_CUB_CZSL_224.pth',map_location=torch.device('cpu'))
+   checkpoint = torch.load('/home/admin/chenshiming/hwj/ZSLVIT/saved_model/ZSLViT_CUB_CZSL.pth',map_location=torch.device('cpu'))
 model.load_state_dict(checkpoint)
 model.eval()
 
