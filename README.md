@@ -28,8 +28,19 @@ We provide trained models ([Google Drive](https://drive.google.com/drive/folders
 The code implementation of **ZSLViT** mainly based on [PyTorch](https://pytorch.org/). All of our experiments run and test in Python 3.9.7. To install all required dependencies:
 ```
 $ pip install -r requirements.txt
+
 ```
-## Runing
+
+## Train
+Runing following commands and training **ZSLViT**:
+
+Need to modify the wandb_config file.
+
+```
+$ python train.py
+```
+
+## Test
 Runing following commands and testing **ZSLViT** on different dataset:
 
 Need to modify the wandb_config file, gzsl is True or False.
