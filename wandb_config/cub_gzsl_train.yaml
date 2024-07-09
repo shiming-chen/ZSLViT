@@ -1,7 +1,6 @@
 dataset:
   value: CUB
 model:
-  #value: deit_small_patch16_shrink_base
   value: deit_base_patch16_shrink_base
 epoch:
   value: 40
@@ -42,10 +41,6 @@ seed:
 keep_rate:
   value: 0.9
 gamma:
-  #value: 0.9
-  #value: 0.5
-  #value: 0.8
-  #value: 0.9
   value: 0.4
 lamb_1:
   value: 1.0
