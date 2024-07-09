@@ -30,7 +30,7 @@ The code implementation of **ZSLViT** mainly based on [PyTorch](https://pytorch.
 $ pip install -r requirements.txt
 ```
 
-## Test
+## Train
 Runing following commands and training **ZSLViT**:
 
 Need to modify the wandb_config file.
