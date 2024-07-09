@@ -73,7 +73,7 @@ Results of our released models using various evaluation protocols on three datas
 
 
 ## Acknowledgement :heart:
-This project is based on EViT ([paper](https://arxiv.org/abs/2202.07800) and (ViT-ZSL)[paper](https://arxiv.org/abs/2108.00045). Thanks for their wonderful works.
+This project is based on EViT ([paper](https://arxiv.org/abs/2202.07800)) and ViT-ZSL([paper](https://arxiv.org/abs/2108.00045)). Thanks for their wonderful works.
 
 ## Citation
 If you find ZSLViT is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
