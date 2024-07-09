@@ -29,7 +29,17 @@ The code implementation of **ZSLViT** mainly based on [PyTorch](https://pytorch.
 ```
 $ pip install -r requirements.txt
 ```
-## Runing
+
+## Test
+Runing following commands and training **ZSLViT**:
+
+Need to modify the wandb_config file.
+
+```
+$ python train.py
+```
+
+## Test
 Runing following commands and testing **ZSLViT** on different dataset:
 
 Need to modify the wandb_config file, gzsl is True or False.
