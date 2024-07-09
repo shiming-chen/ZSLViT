@@ -1,7 +1,7 @@
 # ZSLViT 
 
 
-This repository contains the training and testing code for the CVPR'24 paper titled with  "***Progressive Semantic-Guided Vision Transformer for  Zero-Shot Learningg***".
+This repository contains the training and testing code for the CVPR'24 paper titled with  "***Progressive Semantic-Guided Vision Transformer for  Zero-Shot Learning***".
 
 
 ## Requirements
