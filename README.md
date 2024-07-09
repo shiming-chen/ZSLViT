@@ -4,6 +4,12 @@
 This repository contains the training and testing code for the CVPR'24 paper titled with  "***Progressive Semantic-Guided Vision Transformer for  Zero-Shot Learningg***".
 
 
+## Requirements
+The code implementation of **ZSLViT** mainly based on [PyTorch](https://pytorch.org/). All of our experiments run and test in Python 3.9.7. To install all required dependencies:
+```
+$ pip install -r requirements.txt
+```
+
 
 ## Preparing Dataset and Model
 
@@ -24,11 +30,6 @@ We provide trained models ([Google Drive](https://drive.google.com/drive/folders
 └── ···
 ```
 
-## Requirements
-The code implementation of **ZSLViT** mainly based on [PyTorch](https://pytorch.org/). All of our experiments run and test in Python 3.9.7. To install all required dependencies:
-```
-$ pip install -r requirements.txt
-```
 
 ## Train
 Runing following commands and training **ZSLViT**:
