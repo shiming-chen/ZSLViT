@@ -1,0 +1,63 @@
+dataset:
+  value: CUB
+model:
+  #value: deit_small_patch16_shrink_base
+  value: deit_base_patch16_shrink_base
+epoch:
+  value: 40
+fuse_token:
+  value: True
+batch_size:
+  value: 32
+nb_classes:
+  value: 1000
+base_keep_rate:
+  value: 0.9
+drop_loc:
+  value: (3,6,9)
+pretrained:
+  value: True
+drop:
+  value: 0.0
+drop_path:
+  value: 0.1
+input_size:
+  value: 224
+embed_dim:
+  value: 768
+  #value: 384
+lr_vit:
+  value: 0.00001
+weight_decay_vit:
+  value: 0.0001
+lr_mlp_g:
+  #value: 0.001
+  #value: 0.005
+  value: 0.005
+weight_decay_mlp_g:
+  value: 0.00001
+  #value: 0.0001
+seed:
+  value: 0
+keep_rate:
+  value: 0.9
+gamma:
+  #value: 0.9
+  #value: 0.5
+  #value: 0.8
+  #value: 0.9
+  value: 0.4
+lamb_1:
+  value: 1.0
+device:
+  value: cuda
+dist_url:
+  value: env://
+attr_length:
+  value: 312
+loss_global_alignment:
+  value: 1.0
+loss_sr:
+  value: 1.0
+
+  
