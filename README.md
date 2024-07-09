@@ -71,3 +71,19 @@ Results of our released models using various evaluation protocols on three datas
 
 **Note**: We perform experiments on a single NVIDIA Tesla V100 graphic card with 32GB memory.
 
+
+## Acknowledgement :heart:
+This project is based on EViT ([paper](https://arxiv.org/abs/2202.07800) and (ViT-ZSL)[paper](https://arxiv.org/abs/2108.00045). Thanks for their wonderful works.
+
+## Citation
+If you find ZSLViT is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+
+```bibtex
+@inproceedings{chen2024progressive,
+  title={Progressive Semantic-Guided Vision Transformer for Zero-Shot Learning},
+  author={Chen, Shiming and Hou, Wenjin and Khan, Salman and Khan, Fahad Shahbaz},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={23964--23974},
+  year={2024}
+}
+```
